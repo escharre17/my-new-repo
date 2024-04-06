@@ -7,8 +7,8 @@ if (var2 > 40):
 else:
     pay = var2*var3 
 
-print("Pay:", pay) """
-
+print("Pay:", pay)
+ """
 #Exercise 2
 """ var2 = input("Enter Hours:", )
 var3 = input("Enter Rate:", )
@@ -25,19 +25,20 @@ except:
     print("Error, please enter numeric input") """
 
 #Exercise 3
-#inputs = input('Enter score:')
-inputs = 0.75
+score = input('Enter score:')
+
 try:
-    inputs = float(inputs)
-    if(inputs >= 0.9 & inputs < 1.0):
+    if(float(score) >= 0.9 and float(score) < 1.0):
         print('A')
-    elif(inputs < 0.9 & inputs >= 0.8):
+    elif(float(score) < 0.9 and float(score) >= 0.8):
         print('B')
-    elif(inputs < 0.8 & inputs >= 0.7):
+    elif(float(score) < 0.8 and float(score) >= 0.7):
         print('C')
-    elif(inputs < 0.7 & inputs >= 0.6):
+    elif(float(score) < 0.7 and float(score) >= 0.6):
         print('D')
-    elif(inputs < 0.6):
+    elif(float(score) < 0.6):
         print('F')
+    else:
+        print('Bad Score')   
 except:
     print('Bad score')
