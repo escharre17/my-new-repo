@@ -10,7 +10,7 @@ else:
 print("Pay:", pay)
  """
 #Exercise 2
-""" var2 = input("Enter Hours:", )
+var2 = input("Enter Hours:", )
 var3 = input("Enter Rate:", )
 try:
     var2 = float(var2)
@@ -22,7 +22,7 @@ try:
         pay = var2*var3 
     print("Pay:", pay)
 except:
-    print("Error, please enter numeric input") """
+    print("Error, please enter numeric input")
 
 #Exercise 3
 score = input('Enter score:')
