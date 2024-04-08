@@ -1,17 +1,15 @@
 #Exercise 6
-""" var2 = input("Enter Hours:", )
-var3 = input("Enter Rate:", )
-try:
-    var2 = float(var2)
-    var3 = float(var3)
-    if (var2 > 40):
-        over = (var2 - 40) * (var3 + (var3/2))
-        pay = over + var2*var3
-    else:
-        pay = var2*var3 
-    print("Pay:", pay)
-except:
-    print("Error, please enter numeric input") """
+def computepay(h, r):
+    try:
+        if (h > 40):
+            over = (h - 40) * (r + (r/2))
+            pay = over + h*r
+            return pay
+        else:
+            pay = h*r 
+            return pay
+    except:
+        print("Error, please enter numeric input")
 
 #Exercise 7
 def computegrade(score):
