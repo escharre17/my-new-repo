@@ -1,7 +1,5 @@
 import re
 
-#xpression = input("Enter a refular expression:")
-
 fname = ('regex_sum_2008289.txt')
 sum_lst = 0
 fh = open(fname)
@@ -15,3 +13,4 @@ for line in fh:
                 sum_lst +=int(x)
 
 print(sum_lst)
+
