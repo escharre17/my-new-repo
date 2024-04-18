@@ -13,7 +13,7 @@ for line in fh:
 print(dixt1) """
 
 #Exercise 3
-""" fname = input("Enter file name: ")
+fname = input("Enter file name: ")
 if len(fname) < 1:
     fname = "mbox-short.txt"
 
@@ -28,7 +28,7 @@ print(dixt1)
 
 #Exercise 4
 max_emails = max(dixt1, key=dixt1.get)
-print(max_emails, dixt1[max_emails]) """
+print(max_emails, dixt1[max_emails])
 
 #Exercise 5
 fname = input("Enter file name: ")
